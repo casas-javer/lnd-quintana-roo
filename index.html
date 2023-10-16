@@ -73,17 +73,17 @@
 	Common
 --------------------------------------------------------------*/
 
-.bg-gradient:before {
-    position: absolute;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjk1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: linear-gradient(to bottom, rgb(0 62 124 / 67%) 25%, rgb(0 10 17 / 61%) 75%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#000000', GradientType=0);
-    content: " ";
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-}
+        .bg-gradient:before {
+            position: absolute;
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjk1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: linear-gradient(to bottom, rgb(0 62 124 / 67%) 25%, rgb(0 10 17 / 61%) 75%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#000000', GradientType=0);
+            content: " ";
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
 
         .module-title {
             position: relative;
@@ -361,6 +361,15 @@
         }
 
 
+
+
+@media (min-width: 992px) {
+    .container {
+        max-width:960px
+    }
+}
+
+
         .home .home-text p span.text-in {
             display: block;
             animation: textIn .5s ease;
@@ -406,6 +415,11 @@
             color: #00fff7;
             text-shadow: 1px 1px 4px #00406d;
         }
+
+        .row.gridPropiedades {
+    max-width: 800px;
+    margin: auto;
+}
     </style>
 </head>
 
@@ -552,9 +566,8 @@
                 <div class="row gridPropiedades" style="position: relative; height: 1165.58px;">
 
 
-                    <!-- Paseo Kusamil -->
-                    <div class="col-12 col-sm-6 col-lg-4 mb-5 casas"
-                        style="position: absolute; left: 377.99px; top: 0px;">
+                    <!-- PASEO KUSAMIL -->
+                    <div class="col-12 col-sm-6 col-lg-6 mb-5" style="position: absolute; left: 377.99px; top: 0px;">
                         <div class="card-tipo">
                             <div class="card-thumb">
                                 <picture>
@@ -564,7 +577,7 @@
                                 </picture>
                             </div>
                             <div class="card-caption">
-                                <div class="cc-inner"><span class="tag">Casas</span>
+                                <div class="cc-inner"><span class="tag">Casas / Departamentos</span>
                                     <h3 class="cc-title">Paseo Kusamil</h3><small>Casas con hasta:</small>
                                     <ul class="cc-lista">
                                         <li><img loading="lazy" src="./assets/images/i-t-recamaras.svg" alt="Recámaras"
@@ -581,48 +594,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Portoalto -->
-                    <div class="col-12 col-sm-6 col-lg-4 mb-5 departamentos"
-                        style="position: absolute; left: 377.99px; top: 582.792px;">
-                        <div class="card-tipo">
-                            <div class="card-thumb">
-                                <picture>
-                                    <source
-                                        srcset="./assets/images/portoalto.webp"
-                                        type="image/webp"><img loading="lazy"
-                                        src="./assets/images/portoalto.webp"
-                                        alt="Portoalto" width="900" height="600">
-                                </picture>
-                            </div>
-                            <div class="card-caption">
-                                <div class="cc-inner"><span class="tag">Casas</span>
-                                    <h3 class="cc-title">Portoalto</h3><small>Casas con hasta:</small>
-                                    <ul class="cc-lista">
-                                        <li><img loading="lazy" src="./assets/images/i-t-recamaras.svg" alt="Recámaras"
-                                                width="38" height="24"> <span>2</span></li>
-                                        <li><img loading="lazy" src="./assets/images/i-t-banos.svg" alt="Baños"
-                                                width="38" height="32"> <span>2.5</span></li>
-                                        <li><img loading="lazy" src="./assets/images/i-t-coche.svg"
-                                                alt="Estacionamiento" width="38" height="28"> <span>1</span></li>
-                                    </ul>
-                                    <!-- <button data-bs-toggle="modal" data-bs-target="#modal4"
-                                                       data-slug="punta-estrella" class="btn btn-solid btn-sm btn-modal">Ver
-                                                       más</button> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Privada Altus II -->
-                    <div class="col-12 col-sm-6 col-lg-4 mb-5 casas"
-                        style="position: absolute; left: 755.98px; top: 0px;">
+                    <!-- PRIVADA ALTUS II -->
+                    <div class="col-12 col-sm-6 col-lg-6 mb-5" style="position: absolute; left: 755.98px; top: 0px;">
                         <div class="card-tipo">
                             <div class="card-thumb">
                                 <picture>
                                     <source srcset="./assets/images/privadaaltus.webp" type="image/webp">
-                                    <img loading="lazy" src="./assets/images/privadaaltus.webp"
-                                        alt="Privada Altus II" width="900" height="600">
+                                    <img loading="lazy" src="./assets/images/privadaaltus.webp" alt="Privada Altus II"
+                                        width="900" height="600">
                                 </picture>
                             </div>
                             <div class="card-caption">
@@ -637,15 +616,43 @@
                                                 alt="Estacionamiento" width="38" height="28"> <span>2</span></li>
                                     </ul>
                                     <!-- <button data-bs-toggle="modal" data-bs-target="#modal2"
-                                                        data-slug="paseo-kusamil" class="btn btn-solid btn-sm btn-modal">Ver
-                                                        más</button> -->
+                                                                        data-slug="paseo-kusamil" class="btn btn-solid btn-sm btn-modal">Ver
+                                                                        más</button> -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- CUMNBRE ALTA -->
-                    <div class="col-12 col-sm-6 col-lg-4 mb-5 casas"
-                        style="position: absolute; left: 0px; top: 582.792px;">
+                    <!-- PORTOALTO -->
+                    <div class="col-12 col-sm-6 col-lg-6 mb-5"
+                        style="position: absolute; left: 377.99px; top: 582.792px;">
+                        <div class="card-tipo">
+                            <div class="card-thumb">
+                                <picture>
+                                    <source srcset="./assets/images/portoalto.webp" type="image/webp"><img
+                                        loading="lazy" src="./assets/images/portoalto.webp" alt="Portoalto" width="900"
+                                        height="600">
+                                </picture>
+                            </div>
+                            <div class="card-caption">
+                                <div class="cc-inner"><span class="tag">Casas</span>
+                                    <h3 class="cc-title">Portoalto</h3><small>Casas con hasta:</small>
+                                    <ul class="cc-lista">
+                                        <li><img loading="lazy" src="./assets/images/i-t-recamaras.svg" alt="Recámaras"
+                                                width="38" height="24"> <span>3</span></li>
+                                        <li><img loading="lazy" src="./assets/images/i-t-banos.svg" alt="Baños"
+                                                width="38" height="32"> <span>2.5</span></li>
+                                        <li><img loading="lazy" src="./assets/images/i-t-coche.svg"
+                                                alt="Estacionamiento" width="38" height="28"> <span>2</span></li>
+                                    </ul>
+                                    <!-- <button data-bs-toggle="modal" data-bs-target="#modal4"
+                                                       data-slug="punta-estrella" class="btn btn-solid btn-sm btn-modal">Ver
+                                                       más</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PUNTA ESTRELLA -->
+                    <div class="col-12 col-sm-6 col-lg-6 mb-5" style="position: absolute; left: 0px; top: 582.792px;">
                         <div class="card-tipo">
                             <div class="card-thumb">
                                 <picture>
@@ -673,8 +680,9 @@
                         </div>
                     </div>
 
+
                     <!-- Arbolada -->
-                    <div class="col-12 col-sm-6 col-lg-4 mb-5 departamentos"
+                    <!-- <div class="col-12 col-sm-6 col-lg-4 mb-5 departamentos"
                         style="position: absolute; left: 377.99px; top: 582.792px;">
                         <div class="card-tipo">
                             <div class="card-thumb">
@@ -697,13 +705,13 @@
                                         <li><img loading="lazy" src="./assets/images/i-t-coche.svg"
                                                 alt="Estacionamiento" width="38" height="28"> <span>2</span></li>
                                     </ul>
-                                    <!-- <button data-bs-toggle="modal" data-bs-target="#modal4"
+                                     <button data-bs-toggle="modal" data-bs-target="#modal4"
                                                         data-slug="punta-estrella" class="btn btn-solid btn-sm btn-modal">Ver
-                                                        más</button> -->
+                                                        más</button> 
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
                     <!-- MARQUES DEL RIO -->
                     <!-- <div class="col-12 col-sm-6 col-lg-4 mb-5 casas" style="position: absolute; left: 0px; top: 0px;">
